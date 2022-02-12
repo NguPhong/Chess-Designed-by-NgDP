@@ -1,0 +1,22 @@
+body {
+    background-color: dimgrey;
+}
+#board {
+    width: 560px;
+    height: 560px;
+    border: 1px solid black;
+}
+.white, .black {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+}
+.white {
+    background-color: white;
+}
+.black {
+    background-color: green;
+}
